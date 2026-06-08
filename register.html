@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register | KARNIVAL POLYCC MEGA 2026</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">POLYCC MEGA 2026</div>
+            <ul class="nav-links">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="competition.html">GALLERY</a></li>
+                <li><a href="register.html" class="active">REGISTER</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Participant Registration Form </h1>
+        <p>Secure your spot in the mega carnival competitions today!</p>
+    </section>
+
+    <main class="container">
+        <div class="form-box">
+            <form action="#" method="POST">
+                
+                <div class="form-group">
+                    <label for="fullname">Full Name : </label>
+                    <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="age">Age <span class="required">* (Mandatory Field )</span>: </label>
+                    <input type="number" id="age" name="age" placeholder="Enter your age" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address : </label>
+                    <input type="email" id="email" name="email" placeholder="example@email.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone No. :</label>
+                    <input type="tel" id="phone" name="phone" placeholder="+60123456789" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="competition">Competition : </label>
+                    <select id="competition" name="competition" required>
+                        <option value="">-- Select Competition --</option>
+                        <option value="robotics">AI Robotics competition  </option>
+                        <option value="drone">Drone competition </option>
+                        <option value="cooking">Cooking competition </option>
+                        <option value="code">Code design competition </option>
+                        <option value="3dart">3D Sketch / 3D Art Competition </option>
+                    </select>
+                </div>
+
+                <button type="submit" class="btn" style="width: 100%; padding: 14px; font-size: 16px;">[SUBMIT] </button>
+
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Karnival POLYCC Mega | Organized by JPPKK | Managed by Webiture Enterprise /p>
+    </footer>
+
+</body>
+</html>
