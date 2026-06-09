@@ -1,6 +1,4 @@
-/* ==========================================================================
-   GLOBAL STYLES & RESET (Suntikan Warna Latar Belakang)
-   ========================================================================== */
+
 * {
     margin: 0;
     padding: 0;
@@ -9,12 +7,11 @@
 }
 
 body {
-    background-color: #f0f4f8; /* Warna latar luar yang lembut */
+    background-color: #f0f4f8;
     color: #1a202c;
     padding: 30px 20px;
 }
 
-/* CONTAINER LAYOUT (Lebih Kemas & Berbayang) */
 .container {
     max-width: 1100px;
     margin: 0 auto;
@@ -25,11 +22,8 @@ body {
     border: 1px solid #e2e8f0;
 }
 
-/* ==========================================================================
-   HEADER & NAVIGATION (Warna Tema Karnival)
-   ========================================================================== */
 header {
-    background: linear-gradient(135deg, #1e3a8a, #3b82f6); /* Biru Premium Gradient */
+    background: linear-gradient(135deg, #1e3a8a, #3b82f6); 
     color: #ffffff;
     text-align: center;
     padding: 35px 20px;
@@ -43,7 +37,7 @@ header h1 {
 }
 
 nav {
-    background-color: #1e293b; /* Biru Gelap/Slate */
+    background-color: #1e293b; 
     display: flex;
     border-bottom: 2px solid #3b82f6;
 }
@@ -67,10 +61,9 @@ nav a:hover {
 
 nav a.active {
     color: #ffffff;
-    background-color: #3b82f6; /* Warna penunjuk page aktif */
+    background-color: #3b82f6; 
 }
 
-/* KANDUNGAN UTAMA */
 .content-area {
     padding: 40px 30px;
     min-height: 450px;
@@ -83,9 +76,6 @@ nav a.active {
     font-weight: 700;
 }
 
-/* ==========================================================================
-   STYLE JADUAL INDEX (Kemasan Moden Berwarna)
-   ========================================================================== */
 .info-table {
     width: 100%;
     border-collapse: collapse;
@@ -97,7 +87,7 @@ nav a.active {
 }
 
 .info-table th {
-    background-color: #1e3a8a; /* Header Biru Gelap */
+    background-color: #1e3a8a; 
     color: #ffffff;
     font-weight: 600;
     padding: 14px 18px;
@@ -113,12 +103,9 @@ nav a.active {
 }
 
 .info-table tr:nth-child(even) {
-    background-color: #f8fafc; /* Warna selang-seli kelabu cerah */
+    background-color: #f8fafc; 
 }
 
-/* ==========================================================================
-   STYLE GRID GALERI GAMBAR COMPETITION (Kad Moden Berwarna)
-   ========================================================================== */
 .competitions-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -167,10 +154,6 @@ nav a.active {
     color: #64748b;
     line-height: 1.6;
 }
-
-/* ==========================================================================
-   STYLE BORANG PENDAFTARAN REGISTER (Kemas & Berwarna)
-   ========================================================================== */
 .registration-form {
     max-width: 600px;
     margin: 0 auto;
@@ -211,7 +194,7 @@ nav a.active {
 .submit-btn {
     width: 100%;
     padding: 14px;
-    background-color: #2563eb; /* Butang Biru Alatan */
+    background-color: #2563eb; 
     color: #ffffff;
     border: none;
     border-radius: 6px;
@@ -225,9 +208,6 @@ nav a.active {
     background-color: #1d4ed8;
 }
 
-/* ==========================================================================
-   FOOTER STYLE
-   ========================================================================== */
 footer {
     background-color: #0f172a;
     color: #94a3b8;
